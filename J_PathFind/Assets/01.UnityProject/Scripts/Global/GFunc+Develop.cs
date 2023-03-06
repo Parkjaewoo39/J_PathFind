@@ -49,6 +49,8 @@ public static partial class GFunc
     #endregion      // Assert for debug
 
     #region Vaild Func
+    //Invalid 라고 안적고 isInvalid라고 굳이 적은 이유는
+    //연산 확인시 모두 확인보단 아닌거 확인하는 방법이라 역으로 적음
     public static bool IsValid<T>(this T component_) where T : Component
     {
         Component convert_ = (Component)(component_ as Component);
@@ -81,5 +83,36 @@ public static partial class GFunc
     }   //IsValid()
 
     #endregion      // Vaild Func
+
+    //!리스트를 생성해서 리턴하는 함수
+    /*
+    @param int listLength : 생성할 리스트의 길이
+    @param int startIndex : 리스트에 연속으로 할당할 인덱스의 시작 숫자
+    @return List<T> list_ : 연속된 숫자로 생성한 리스트    
+    */
+    public static List<int> CreateList(int listLength, int startIndex = 0)
+    {
+        List<int> list_ = new List<int>();
+        for(int i = 0; i < listLength; i ++)
+        {
+            list_.Add(startIndex + i);
+        }
+        return list_;
+    }   //CreateList()
+
+    //! 두변수의 값을 Swap 하는 함수
+    public static void Swap<T>(ref T sourValue, ref T destValue)
+    {
+        T tempValue = sourValue;
+        sourValue = destValue;
+        destValue = tempValue;
+    }   //Swap()
+    
+    //swap 튜플 스타일 
+    //! 두변수의 값을 Swap 하는 함수
+    public static void Swap<T>(( T sourValue,  T destValue) swapValue)
+    {
+        (T sourValue,T destValue) = (swapValue.destValue, swapValue.sourValue);
+    }   //Swap()
 
 }

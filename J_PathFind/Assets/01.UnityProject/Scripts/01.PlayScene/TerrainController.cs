@@ -21,6 +21,7 @@ public class TerrainController : MonoBehaviour
     private Color searchColor = default;
     private Color inactiveColor = default;
     #endregion      //길찾기 알고리즘을 위한 변수
+    
 
 
     private void Awake()
