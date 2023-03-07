@@ -160,7 +160,7 @@ public static partial class GFunc
                 if (fPos.x < sPos.x) { compareResult = -1; }
                 else { compareResult = 1; }
             }   //else:x포지션이 다를 경우 대소비교
-
+            return compareResult;
         }   //ifL y포지션이 같은 경우
 
         //y포지션이 다른 경우 대소비교

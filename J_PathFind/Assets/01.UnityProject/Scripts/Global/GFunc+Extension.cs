@@ -54,6 +54,6 @@ public static partial class GFunc
     public static bool IsEquals(this float targetValue, float compareValue)
     {
         bool isEquals = Mathf.Approximately(targetValue, compareValue);
-        return !isEquals;
+        return isEquals;
     }    //IsEquals()
 }

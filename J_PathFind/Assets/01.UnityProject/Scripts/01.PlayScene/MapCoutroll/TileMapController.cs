@@ -5,8 +5,7 @@ using UnityEngine.Tilemaps;
 
 public class TileMapController : MonoBehaviour
 {
-    protected string tileMapObjName = default;
-    
+    protected string tileMapObjName = default;    
     protected MapBoard mapController = default;
     protected Tilemap tileMap = default;
     protected List<GameObject> allTileObj = default;
