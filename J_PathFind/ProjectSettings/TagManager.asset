@@ -47,3 +47,6 @@ TagManager:
   - name: Castle
     uniqueID: 1484230467
     locked: 0
+  - name: Front
+    uniqueID: 2710347777
+    locked: 0
