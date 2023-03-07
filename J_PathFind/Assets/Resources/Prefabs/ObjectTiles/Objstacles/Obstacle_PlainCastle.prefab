@@ -113,11 +113,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094528042367032836, guid: e40e282c83b0b564fb486723d89f452f, type: 3}
       propertyPath: m_Name
-      value: Obstacle_PlanCastle
+      value: Obstacle_PlainCastle
       objectReference: {fileID: 0}
     - target: {fileID: 8446168385859811901, guid: e40e282c83b0b564fb486723d89f452f, type: 3}
       propertyPath: m_SortingLayer
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8446168385859811901, guid: e40e282c83b0b564fb486723d89f452f, type: 3}
       propertyPath: m_SortingOrder
@@ -125,7 +125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8446168385859811901, guid: e40e282c83b0b564fb486723d89f452f, type: 3}
       propertyPath: m_SortingLayerID
-      value: -1942844237
+      value: 1484230467
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e40e282c83b0b564fb486723d89f452f, type: 3}

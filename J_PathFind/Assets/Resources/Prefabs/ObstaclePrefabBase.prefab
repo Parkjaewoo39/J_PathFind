@@ -103,10 +103,34 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 3623d4bf5d6bb46459279333988994f9, type: 3}
+    - target: {fileID: 6761741932998843273, guid: 0554ca996245b694288b7c4b04dc2bf0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761741932998843273, guid: 0554ca996245b694288b7c4b04dc2bf0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761741932998843273, guid: 0554ca996245b694288b7c4b04dc2bf0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1942844237
+      objectReference: {fileID: 0}
     - target: {fileID: 7089077489560478833, guid: 0554ca996245b694288b7c4b04dc2bf0, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: d9c6edf65b825244e9f85b46dbb16d3a, type: 3}
+    - target: {fileID: 7089077489560478833, guid: 0554ca996245b694288b7c4b04dc2bf0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7089077489560478833, guid: 0554ca996245b694288b7c4b04dc2bf0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7089077489560478833, guid: 0554ca996245b694288b7c4b04dc2bf0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1484230467
+      objectReference: {fileID: 0}
     - target: {fileID: 7422544963177480264, guid: 0554ca996245b694288b7c4b04dc2bf0, type: 3}
       propertyPath: m_Name
       value: ObstaclePrefabBase

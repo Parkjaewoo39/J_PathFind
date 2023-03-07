@@ -58,7 +58,7 @@ public class MapBoard : MonoBehaviour
             tileIdx1D = y * MapCellSize.x + xIdx2D;
            
             tempTile = terrainMap.GetTile(tileIdx1D);
-            Debug.Log(tempTile);
+            //Debug.Log(tempTile);
             
             terrains.Add(tempTile);
         }   //loop: y 열의 크기만큼 순회하는 루프

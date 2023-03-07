@@ -14,7 +14,7 @@ public class ObstacleMap : TileMapController
     }   //InitAwake()
     private void Start()
     {
-        StartCoroutine(DelayStart(1f));
+        StartCoroutine(DelayStart(0f));
     }
 
     private IEnumerator DelayStart(float delay)
